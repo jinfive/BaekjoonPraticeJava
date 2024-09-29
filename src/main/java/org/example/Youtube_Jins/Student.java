@@ -1,4 +1,4 @@
-package org.example.practice1;
+package org.example.Youtube_Jins;
 
 public class Student {
     private String name;

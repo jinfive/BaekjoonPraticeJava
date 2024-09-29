@@ -1,4 +1,4 @@
-package org.example.practice1;
+package org.example.Youtube_Jins;
 
 import java.util.ArrayList;
 import java.util.Scanner;

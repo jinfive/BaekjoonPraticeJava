@@ -23,6 +23,7 @@ public class Student {
     public Student(String name, int number) {
         this.name = name;
         this.number = number;
-    }
+    }//생성자
+
 
 }

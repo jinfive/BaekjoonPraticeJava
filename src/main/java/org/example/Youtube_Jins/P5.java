@@ -1,6 +1,6 @@
 package org.example.Youtube_Jins;
 
-public class P5 {
+public class P5 {//소문자는 대문자 > 대문자는 소문자
     public static void main(String[] args) {
         String input = "HELLOworld";
         char[] chars = input.toCharArray();
@@ -8,7 +8,7 @@ public class P5 {
 //            System.out.println(a);
 //        }
         //방법1
-        
+
 //        for(char a:chars){
 //            if(a >= 65 && a <= 90){
 //                a = (char) (a + 32);

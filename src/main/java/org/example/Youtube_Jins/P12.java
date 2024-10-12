@@ -13,6 +13,7 @@ public class P12 {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 arr[j][i] = ++count;
+                //arr[j][i] = i*n + j+1; >>공식
             }//for
         }//for
 

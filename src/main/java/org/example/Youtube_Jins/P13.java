@@ -6,7 +6,8 @@ public class P13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("숫자를 입력하세요");
-        String number = sc.nextLine();
+        //String number = sc.nextLine();
+        /*
         int count0 = 0;
         int count1 = 0;
         int count2 = 0;
@@ -64,5 +65,22 @@ public class P13 {
         System.out.println("7:\t"+count7);
         System.out.println("8:\t"+count8);
         System.out.println("9:\t"+count9);
+
+         */
+        int n = sc.nextInt();
+        int[] arr = new int[10]; //0~ 9 입력된 수 count를 하기 위한용도
+
+
+        while (n>0){
+            int na = n % 10;
+            n = n / 10;
+            arr[na]++;
+        }
+        //출력
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(i+" :\t"+arr[i]);
+        }
+        sc.close();
     }//main
 }

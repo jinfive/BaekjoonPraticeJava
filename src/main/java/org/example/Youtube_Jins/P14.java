@@ -19,6 +19,7 @@ public class P14 {
                 System.out.println(i +" * "+j+" = " + (i*j));
             }//for
             System.out.println("================        "+i+"단       ==================");
+
         }//for
     }//main
 }//class

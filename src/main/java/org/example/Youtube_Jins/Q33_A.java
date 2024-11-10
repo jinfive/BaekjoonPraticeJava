@@ -36,7 +36,7 @@ public class Q33_A {
         if(x -1 >=0 && arr[x-1][y] != COLOR && arr[x-1][y] != 1){
             color(x -1, y);
         }//왼쪽이동
-        if(x + 1 <=SIZE-1 && arr[x+1][y] != COLOR && arr[x+1][y] != 1){
+         if(x + 1 <=SIZE-1 && arr[x+1][y] != COLOR && arr[x+1][y] != 1){
             color(x +1, y);
         }//오른쪽
         if(y + 1 <=SIZE-1 && arr[x][y+1] != COLOR && arr[x][y+1] != 1){

@@ -24,7 +24,8 @@ public class Q39 {
 274
 벡준9095
 
-----------점화식
+----------점화식 1 ,2 ,4 ,7
+n= f(n-1) + f(n-2) + f(n-3)
 1  =1 ==>1가지
 
 2 ==>2가지
@@ -47,14 +48,25 @@ public class Q39 {
 4
 
      */
+    public static int[] arr = new int[100];
+
+    public static int f(int n) {
+        if(arr[n] != 0) {
+            return arr[n];
+        }
+
+        return arr[n] = f(n-1) + f(n-2) + f(n-3);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("수를 입력하세요");
         int n = sc.nextInt();
+        arr[1] = 1;
+        arr[2] = 2;
+        arr[3] = 3;
 
-
-
-
-
+        System.out.println(f(n));
+        
     }
 }

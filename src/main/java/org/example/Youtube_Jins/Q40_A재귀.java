@@ -2,7 +2,7 @@ package org.example.Youtube_Jins;
 
 import java.util.Scanner;
 
-public class Q40 {
+public class Q40_A재귀 {
     /*
     백준1463번
     정수 X에 사용할 수 있는 연산은 다음과 같이 세 가지 이다.
@@ -28,25 +28,40 @@ X가 2로 나누어 떨어지면, 2로 나눈다.
 예제 출력 2
 3
      */
-    static int count;
-    public static int f(int n ){
-        if (n == 1 )return count;
-        else count++;
 
-        if (n % 3 == 0){
-            f(n/3);
+    static int min = 999999;
+
+    public static void doFunc(int num, int way, int cnt) {
+        if (way == 3 && num % 3 == 0) {
+            cnt++;
+            num /= way;
+            for (int i = 1; i <= 3; i++)
+                doFunc(num, i, cnt);
+        } else if (way == 2 && num % 2 == 0) {
+            cnt++;
+            num /= way;
+            for (int i = 1; i <= 3; i++)
+                doFunc(num, i, cnt);
+        } else if (num >= 2){
+            cnt++;
+            num -= 1;
+            for (int i = 1; i <= 3; i++)
+                doFunc(num, i, cnt);
         }
-        else if(n % 2 == 0){
-            f(n/2);
+
+        if (num == 1 && cnt < min) {
+            min = cnt;
+            return;
         }
-        else
-            f(n-1);
-       return count;
     }
+
     public static void main(String[] args) {
-        Scanner sc  = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(f(n));
+        int n;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        for (int i = 1; i <= 3; i++)
+            doFunc(n, i, 0);
+        System.out.println(min);
     }
 }
 

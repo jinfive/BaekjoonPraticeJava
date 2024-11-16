@@ -17,11 +17,11 @@ public class Q38 {
     static int stamp = 0;
     static int chicken = 0;
 
-    public static int order(int n ,int k){
+    public static void order(int n ,int k){
         if(stamp  < k && n ==0){
-            return chicken;
+
         }
-        order()
+
 
     }
 

@@ -67,6 +67,6 @@ n= f(n-1) + f(n-2) + f(n-3)
         arr[3] = 3;
 
         System.out.println(f(n));
-        
+
     }
 }

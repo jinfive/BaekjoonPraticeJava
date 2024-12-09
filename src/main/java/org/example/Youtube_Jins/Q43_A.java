@@ -29,11 +29,18 @@ public class Q43_A {
         int[] arr = new int[100];
         int[] dp = new int[1000];
 
-        for(int i = 0 ; i < 100 ; i++){
+        for(int i = 1 ; i <= coin ; i++){
             arr[i] = sc.nextInt();//문제에 사용될 동전 입력하기
         }
+       dp[0] = 1; // Dp 문제플 풀기 위해서는 내가 사전에 알고 있는값은 먼저 대입
+        for(int i = 1 ; i <=coin ; i++) {
+            for (int j = arr[i]; j <= money; j++) {
+                dp[j] += dp[j - arr[i]];
+            }
+        }
 
-        
+        System.out.println(dp[money]);
+
     }
 
 }

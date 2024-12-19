@@ -17,5 +17,17 @@ public class Rq2 {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i]+" ");
         }
+        //방법2
+        int prepre = 1;//a[n-2]
+        int pre = 1; //a[n-1]
+        System.out.print(prepre + " ");
+        System.out.print(pre + " ");
+        for(int i = 3; i<=10 ; i++){
+            int currnet = prepre + pre;
+            System.out.print(currnet + " ");
+            prepre = pre;
+            pre = currnet;
+        }
+
     }//main
 }//class

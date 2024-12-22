@@ -18,5 +18,10 @@ public class BOJ1000 {
             sum += numarr[i];
         }
         System.out.println("두수의 합은>>"+ sum);
+        /*
+        int A = Sc.nettInt();
+        int B = Sc.nettInt();
+
+         */
     }
 }

@@ -10,11 +10,12 @@ public class Boj5597 {
             int num = sc.nextInt();
             arr[num]++;
         }
-        for (int i = 1; i < arr.length; i++) {
-            if(arr[i] == 0){
-                System.out.println(i);
-            }
-        }
+//        for (int i = 1; i < arr.length; i++) {
+//            if(arr[i] == 0){
+//                System.out.println(i);
+//            }
+//        }
+//
 
     }
 }

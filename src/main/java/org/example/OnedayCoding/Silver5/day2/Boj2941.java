@@ -13,7 +13,7 @@ public class Boj2941 {
         String[] check2 = {"c=", "c-", "d-", "lj", "nj", "s=", "z="};
 
         int count = 0;
-        for (int i = 0; i < str.length(); ) {  // str.length()-1 제거
+        for (int i = 0; i < str.length(); ) {
             if (i < str.length() - 2 && check1.equals(str.substring(i, i + 3))) {
                 count++;
                 i += 3;

@@ -21,7 +21,7 @@ public class Boj10156 {
         if (sum > m){
             System.out.println(sum - m);
         }
-        else if(sum < m){
+        else if(sum <= m){
             System.out.println(0);
         }
     }

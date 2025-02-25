@@ -15,35 +15,16 @@ public class Boj11943 {
         int C = Integer.parseInt(st2.nextToken());
         int D = Integer.parseInt(st2.nextToken());
 
-       // System.out.println(A +""+B+""+C+""+D);
+        // System.out.println(A +""+B+""+C+""+D);
 
-        int b1 = A + B;
-        int b2 = C + D;
+        int c1 = B + C;
+        int c2 = A + D;
 
-        int count = 0;
-
-        if(A>B){
-            count += B;
-            count += A;
-            System.out.println(count);
-        }
-        else if(B>A){
-            count += A;
-            count += D;
-            System.out.println(count);
+        if(c1 > c2){
+            System.out.println(c1);
         }
         else{
-            if(C>D){
-                count += D;
-                count += A;
-                System.out.println(count);
-            }
-            else{
-                count += C;
-                count += B;
-                System.out.println(count);
-            }
-
+            System.out.println(c2);
         }
 
     }

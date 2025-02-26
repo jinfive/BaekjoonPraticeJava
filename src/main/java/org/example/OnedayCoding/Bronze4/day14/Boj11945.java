@@ -1,4 +1,4 @@
-package org.example.OnedayCoding.Bronze4;
+package org.example.OnedayCoding.Bronze4.day14;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -24,5 +24,7 @@ public class Boj11945 {
             }
             System.out.println();
         }
+    br.close();
     }
+
 }

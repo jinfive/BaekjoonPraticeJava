@@ -17,5 +17,5 @@ public class Boj10768 {
             System.out.println("Special");
         }
 
+    }
 }
-

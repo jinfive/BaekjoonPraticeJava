@@ -14,12 +14,12 @@ public class Boj4299 {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        if( M > N ){
+        if( N <M ){
             System.out.println(-1);
         }
         else{
             int x = (N + M ) /2;
-            int y = (N - M ) % 2;
+            int y = (N - M ) / 2;
             if(x+y == N && x - y == M){
                 System.out.println(x + " " + y);
             }

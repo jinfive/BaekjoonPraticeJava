@@ -17,7 +17,7 @@ public class Boj10817 {
         Arrays.sort(arr);
         System.out.println(arr[1]);
         br.close();
-        
+
 
     }
 }

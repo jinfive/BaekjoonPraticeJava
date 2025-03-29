@@ -18,8 +18,14 @@ public class Boj2576 {
                 sum += list.get(i);
                 list1.add(list.get(i));
             }
+
         }
-        System.out.println(sum);
-        System.out.println(list1.get(0));
+        if(list1.size() == 0){
+            System.out.println(-1);
+        }
+        else {
+            System.out.println(sum);
+            System.out.println(list1.get(0));
+        }
     }
 }

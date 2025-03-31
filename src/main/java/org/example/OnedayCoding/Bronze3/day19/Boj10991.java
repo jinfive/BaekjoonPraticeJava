@@ -8,9 +8,9 @@ public class Boj10991 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        for (int i = 0 ; i <n ; i++){
-            for (int j = 0 ; j <n+i ; j++){
-                if((i + j) % 2 == 1 && j >= n - i -1) {
+        for (int i = 1 ; i <= n + 1 ; i++){
+            for (int j = 0 ; j <n+i-1 ; j++){
+                if((i + j +n) % 2 == 0 && j >= n - i -1) {
                     System.out.print("*");
                 }
                 else {

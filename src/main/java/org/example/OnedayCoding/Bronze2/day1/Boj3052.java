@@ -29,5 +29,5 @@ public class Boj3052 {
 
         }
 
-    
+
 }

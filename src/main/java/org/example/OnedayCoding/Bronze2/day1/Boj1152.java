@@ -22,7 +22,7 @@ public class Boj1152 {
             }
         }
         System.out.println(count);
-        
+
 
     }
 }

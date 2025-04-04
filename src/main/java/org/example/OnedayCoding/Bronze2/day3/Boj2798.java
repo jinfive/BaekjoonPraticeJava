@@ -37,7 +37,7 @@ public class Boj2798 {
             System.out.println(Max);
 
 
-        
+
     }
 
 

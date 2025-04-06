@@ -30,6 +30,6 @@ public class Boj8958 {
             System.out.println(answer);
         }
 
-        
+
     }
 }

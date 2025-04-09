@@ -32,6 +32,6 @@ public class Boj1427R {
             System.out.println(A[i]);
         }
 
-        
+
     }
 }

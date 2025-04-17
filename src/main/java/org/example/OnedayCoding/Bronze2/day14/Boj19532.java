@@ -21,7 +21,7 @@ public class Boj19532 {
                     if(a * i + b * j == c && d * i + e * j == f){
                         System.out.println(i + " "+ j );
                     }
-                
+
 
             }
 

@@ -1,4 +1,4 @@
-package org.example.OnedayCoding.Bronze2;
+package org.example.OnedayCoding.Bronze2.day17;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -37,6 +37,6 @@ public class Boj1076 {
             }
             System.out.println(sum);
         }
-    
+
 
 }

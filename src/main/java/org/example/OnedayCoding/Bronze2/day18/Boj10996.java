@@ -28,6 +28,6 @@ public class Boj10996 {
                     System.out.println();
                 }
             }
-        
+
     }
 }

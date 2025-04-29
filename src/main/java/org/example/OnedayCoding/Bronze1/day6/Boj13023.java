@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Boj13023 {
- 
+
     // The main method must be in a class named "Main".
     class Main {
         private static int n;

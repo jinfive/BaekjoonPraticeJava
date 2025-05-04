@@ -1,4 +1,4 @@
-package org.example.OnedayCoding.Bronze1;
+package org.example.OnedayCoding.Bronze1.day2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -3,8 +3,8 @@ package org.example.OnedayCoding.Bronze1.day11;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class practice2023 {
- 
+public class BOJ2023 {
+
     class Main {
         private static StringBuilder sb = new StringBuilder();
         private static int num;

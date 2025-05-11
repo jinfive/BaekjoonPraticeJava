@@ -37,5 +37,5 @@ public class Boj2023 {
         }
         return true;
     }
-    
+
 }

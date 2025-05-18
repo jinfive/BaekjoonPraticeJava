@@ -29,6 +29,7 @@ public class Boj1316A {
             count++;
         }
     }
+    
         System.out.println(count);
         //System.out.println((int)'a'); 97
         //System.out.println((int)'z'); 122

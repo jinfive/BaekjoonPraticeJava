@@ -1,7 +1,7 @@
 package org.example.OnedayCoding.Silver5.day1;
 
 public class Boj4673R {
- 
+
     // The main method must be in a class named "Main".
     class Main {
         private static boolean[] check;

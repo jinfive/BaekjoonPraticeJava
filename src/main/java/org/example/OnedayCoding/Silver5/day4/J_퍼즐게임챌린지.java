@@ -1,7 +1,7 @@
 package org.example.OnedayCoding.Silver5.day4;
 
 public class J_퍼즐게임챌린지 {
-    
+
     class Solution {
         private static int answer = 0;
         private static int[] Diffs;
@@ -25,6 +25,7 @@ public class J_퍼즐게임챌린지 {
                 solve(startLv);
                 startLv++;
             }
+            
             return answer;
         }
         private static void solve(int startLv){

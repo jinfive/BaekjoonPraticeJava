@@ -25,7 +25,7 @@ public class J_퍼즐게임챌린지 {
                 solve(startLv);
                 startLv++;
             }
-            
+
             return answer;
         }
         private static void solve(int startLv){

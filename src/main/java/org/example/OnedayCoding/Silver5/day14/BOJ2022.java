@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BOJ2022 {
-    
+
     class Main {
         public static void main(String[] args) throws Exception{
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

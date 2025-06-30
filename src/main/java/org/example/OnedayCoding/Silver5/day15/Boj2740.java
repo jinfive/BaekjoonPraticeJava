@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Boj2740 {
-    
+
     // The main method must be in a class named "Main".
     class Main {
         private static int[][] arr1;

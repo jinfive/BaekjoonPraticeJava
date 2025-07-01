@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Boj10867 {
- 
+
 
     // The main method must be in a class named "Main".
     class Main {

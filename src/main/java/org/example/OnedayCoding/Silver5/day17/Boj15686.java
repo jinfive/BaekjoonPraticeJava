@@ -60,7 +60,7 @@ public class Boj15686 {
                     sum += min;
                 }
                 answer = Math.min(answer , sum);
-                
+
                 return;
             }
 

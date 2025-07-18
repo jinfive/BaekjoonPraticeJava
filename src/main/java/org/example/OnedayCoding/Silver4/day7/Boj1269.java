@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.StringTokenizer;
 
 public class Boj1269 {
-    
+
     // The main method must be in a class named "Main".
     class Main {
         public static void main(String[] args) throws Exception{

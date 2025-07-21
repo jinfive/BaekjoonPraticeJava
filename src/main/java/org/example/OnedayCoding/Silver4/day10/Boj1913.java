@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class Boj1913 {
- 
+
 
     // The main method must be in a class named "Main".
     class Main {

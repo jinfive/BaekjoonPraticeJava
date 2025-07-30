@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Boj25192 {
-   
+
 
     // The main method must be in a class named "Main".
     class Main {

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Boj2847 {
-  
+
 
     // The main method must be in a class named "Main".
     class Main {

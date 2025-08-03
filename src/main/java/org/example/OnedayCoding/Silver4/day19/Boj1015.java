@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.StringTokenizer;
 
 public class Boj1015 {
-   
+
 
     class Main {
         public static void main(String[] args) throws Exception{

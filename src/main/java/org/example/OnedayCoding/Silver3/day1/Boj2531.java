@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.StringTokenizer;
 
 public class Boj2531 {
-    
+
 
     // The main method must be in a class named "Main".
     class Main {

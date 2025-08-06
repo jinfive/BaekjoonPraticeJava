@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Boj2667 {
-   
+
 
     // The main method must be in a class named "Main".
     class Main {

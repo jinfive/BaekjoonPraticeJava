@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class J_경주로건설 {
-    
+
 
     class Solution {
         private static Deque<Road> dq;

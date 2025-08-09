@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class Boj2606 {
-   
+
 
     // The main method must be in a class named "Main".
     class Main {

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class P배달 {
-    
+
 
     class Solution {
         public int solution(int N, int[][] road, int K) {

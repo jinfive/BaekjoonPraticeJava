@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class P미로탈출명령어 {
-    
+
 
     class Solution {
         private static String answer;
